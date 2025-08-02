@@ -1,11 +1,7 @@
 // user input
 
-let userTask_1 = prompt("");
-let userTaskDescription = prompt("");
+let userTask_1 = prompt("Enter task 1 title:");
+let userTaskDescription = prompt("Enter task 1 description: ");
 let taskStatus = prompt(
-  "Please confirm the task status: 'todo', 'doing', 'done'"
+  "Please confirm the task 1 status: 'todo', 'doing', 'done'"
 );
-
-function taskChecker() {
-  if (taskStatus === done) console.log("You got it to work");
-}
