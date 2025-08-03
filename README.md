@@ -1,52 +1,59 @@
-# JSL02 Project Brief: Task Input and Status Validation System
+📌 JSL02 – Task Input & Status Tracker
+🚀 What’s Going On Here
+This project takes the Kanban board setup from JSL01 and gives it some life with JavaScript.
+You’ll add two tasks, the script will check their status, and the console will show which ones are done (or tell you to get moving if none are finished).
 
-## Important Prerequisite
+✨ What It Can Do
+Ask for a title, description, and status for two tasks
 
-1. Before starting this challenge, ensure that you have **corrected your JSL01 project (HTML and CSS)** using the solution provided. This will help maintain consistency and ensure you build on a solid foundation.
-2. **Check the project user stories in your student dashboard**, make sure you understand what is required for each feature.
+Automatically changes whatever you type for status into lowercase
 
-## Overview
+Won’t accept anything except todo, doing, or done (keeps asking until you get it right)
 
-This project involves implementing a JavaScript-based task entry system where users can input two tasks with complete details, ensuring data consistency and validation. The system will guide users through entering valid task titles, descriptions, and statuses, enforcing correct formatting while maintaining code clarity and maintainability.
+Shows all tasks marked as “done” in the console
 
-## Key Objectives
+Gives a motivational nudge if no tasks are done yet
 
-### Logic & User Interaction
+Clean, easy-to-read code with comments
 
-- Ensure the JavaScript file is correctly linked to the HTML document.
-- Prompt the user to enter details (title, description, status) for two separate tasks and store them in variables.
-- Convert all status inputs to lowercase automatically for consistency.
-- Validate the status input to allow only "todo", "doing", or "done" and repeatedly prompt the user until a valid status is entered.
-- Display the title and status of completed tasks (status: "done") in the console.
-- If no tasks are marked as "done", show a motivational message in the console: "No tasks completed, let's get to work!".
+🛠️ What It’s Built With
+HTML5
 
-## Code Quality & Maintainability
+CSS3
 
-- Use descriptive variable names to enhance readability and maintainability.
-- Include clear comments explaining complex logic and functionality for easier understanding.
+JavaScript (ES6)
 
-## Expected Outcome
+📁 Project Layout
+pgsql
+Copy code
+├── index.html
+├── css/
+│ └── styles.css
+├── js/
+│ └── scripts.js
+├── assets/
+│ └── (favicon, icons, fonts)
+▶️ How To Use It
+Open index.html in your browser.
 
-A functional task entry system that ensures accurate data collection, validation, and structured storage while maintaining clean and well-documented code for easy future modifications.
+Enter the details for two tasks when prompted.
 
-**Prompt Input Example**
+Open your browser console (Right-click → Inspect → Console).
 
-- The program must prompt users for task 1 title, descrition and status inputs, it must do the same for task 2 information
+Check if any tasks are completed or see the “get to work” message.
 
-  ![title prompt](./explainer-images/title%20prompt.png)
+✅ JSL02 Checklist
+JS file is linked and working
 
-**Invalid status**
+Task prompts collect and store data correctly
 
-- If the user enters a status other than `todo`, `doing` or `done`, the program must alert the user of this and return to prompting them to enter a status.
+Status input is case-insensitive and validated
 
-  ![invalid status](./explainer-images/invalid%20status.png)
+Console shows completed tasks or motivation if none are done
 
-**Console log**
+Code is clean, commented, and easy to follow
 
-- When there is a completed task:
-
-  ![invalid status](./explainer-images/completed%20task%20log.png)
-
-- When there are no completed tasks:
-
-  ![invalid status](./explainer-images/no%20completed%20tasks%20log.png)
+👤 Author
+Lazio Barnett
+Student ID: LAZBARN25157
+CodeSpace Academy – JSL02 Project
